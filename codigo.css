@@ -1,0 +1,41 @@
+/* Importar la fuente OpenDyslexic */
+@import url('https://fonts.googleapis.com/css2?family=OpenDyslexic&display=swap');
+
+body {
+    font-family: 'OpenDyslexic', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+    color: #0056b3;
+}
+
+/* Botón de accesibilidad */
+#fontToggle {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#fontToggle:hover {
+    background-color: #0056b3;
+}
+
+article {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+p {
+    font-size: 18px;
+}
